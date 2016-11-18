@@ -48,11 +48,10 @@
 
 
 .black-background {
-	background-color: black; 
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	background-color: black; 	
+}
+.flower-background {
+	background-image: img src="img/flower.jpg"
 }
 
 .container {
