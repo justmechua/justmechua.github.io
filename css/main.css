@@ -1,6 +1,28 @@
+/*=======================================*/
+/*color or my text*/
+/*=======================================*/
+
 .red-text {
   color: red;
 }
+.white-text {
+	color: white;
+}
+.pink-text {
+	color: pink;
+}
+.yellow-text {
+	color: yellow;
+}
+.green-text {
+	color: green;
+}
+
+
+/*=======================================*/
+/*size or my text*/
+/*=======================================*/
+
 
 .large-text {
   font-family: lobster;
@@ -14,6 +36,16 @@
 .small-text {
 	font-size: 15px;
 }
+
+.hi-chua {
+	font-size: 100px;
+}
+
+
+/*=======================================*/
+/*Margin and padding*/
+/*=======================================*/
+
 
 .black-background {
 	background-color: black; 
