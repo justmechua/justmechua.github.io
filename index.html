@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <!-- my custom style -->
     <link rel="stylesheet" href="css/main.css">
@@ -21,7 +21,7 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <!-- Add your site or application content here -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -39,28 +39,40 @@
             <li class="active"><a href="tribute-page/index.html">Tribute Page<span class="sr-only">(current)</span></a></li>
             <li><a href="#">Link</a></li>
           </ul>
+          <!-- navbar left -->
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <!-- navbar right -->
+          </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        
+        <div class="black-background">
+          
+        <p align="center">  
+        <img class="img-responsive" src="img/flower2.jpg">
+        </p>
 
-      <!-- navbar left -->
-
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+        <p align="center" class="text-center large-text red-text"> Happy Monthsary </p>
+        <p align="center" class="text-center large-text red-text"> Kim &amp; Beng </p>
+          
+        <p align="center">  
+        <img class="img-responsive" src="img/kim.jpg">
+        </p>
+        
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-
-      <!-- navbar right -->
-
-      </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <!-- <script> -->
-    <!-- window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date; -->
-    <!-- ga('create','UA-XXXXX-Y','auto');ga('send','pageview') -->
-    <!-- </script> -->
-    <!-- <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
-  </body>
-</html>
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!-- <script> -->
+        <!-- window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date; -->
+        <!-- ga('create','UA-XXXXX-Y','auto');ga('send','pageview') -->
+        <!-- </script> -->
+        <!-- <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+      </body>
+    </html>
